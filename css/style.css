@@ -1,64 +1,156 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+body {
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  text-align: center;
+  color: #40515E;
+}
 
-<head>
-  <meta charset="utf-8">
-  <title>Sarvagya Chaudhary</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href="favicon.ico">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Rubik&family=Sacramento&display=swap" rel="stylesheet">
-</head>
+h1 { font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
 
-<body>
-  <div class="top-container">
-    <img class="top-cloud" src="images/cloud.png" alt="">
-    <h1 class="cap2">Sarvagya Chaudhary</h1>
-    <h2><span class="cap">Design</span><span class="cap1">ing +</span> <span class="cap">Think</span><span class="cap1">ing</span></h2>
-    <img class="bottom-cloud" src="images/cloud.png" alt="">
-    <img src="images/mountain.png" alt="">
-  </div>
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
 
+h3 {
+  color: #11999E;
+  font-family: 'Aref Ruqaa Ink', serif;
+}
+p{
+  line-height: 2;
+}
+.cap2{
 
-  <div class="middle-container">
-    <div class="profile">
-      <img class="savy" src="images/profile.png" alt="">
-      <h2>Hi There!!</h2>
-      <p class="profilep">Civil Engineering as a profession<br>Web Developer by passion !!❤️!!</p>
-    </div>
-    <hr class="line">
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="code" src="images/computer.png" alt="">
-        <h3>Computer Programming</h3>
-        <p class="codep">Though i'am having an engineering degree, I have excelled myself in the field of Computer Science.<br>
-          I have completed DSA with Java and now i am trying to excell myself in MERN Stack.</p>
-      </div>
-      <div class="skill-row">
-        <img class="code1" src="images/chillies.png" alt="">
-        <h3>I just ❤️ chillies.</h3>
-        <p class="codep1">If you ever want to have a conversation with me over chillies, then i am always available in your dreams. So please dont try to conatct me on any of my physical adresses 😉.</p>
-      </div>
-    </div>
-    <hr class="line">
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>If you would like to hire me then please reach me out.</h3>
-      <p>Email is always preferred over any other mode of communication as we might be few timezones away.</p>
-      <a class="btn" href="mailto:sarvagya.c@gmail.com">CONTACT ME</a>
-    </div>
-  </div>
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+.cap1{
+    font-size: 1.8rem;
+    color: white ;
+    font-family: 'Aref Ruqaa Ink', serif;
+}
+
+.cap{
+    font-family: 'Rubik', sans-serif;
+
+}
 
 
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/sarvagya-chaudhary-19471755/">LinkedIn</a>
-    <a class="footer-link" href="https://www.instagram.com/sarvagya_2k/">Instagram</a>
-    <a class="footer-link" href="https://www.dailyu.in/">Website</a>
-    <p class="bottomp">© Made with ❤️ by <span class="buddy"> CoderBuddy</span></p>
-  </div>
+.top-container {
+  background-color: #222831;
+  position: relative;
+  padding-top: 100px;
+}
 
-</body>
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
 
-</html>
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+.middle-container {
+ background-color: #EEEEEE;
+ padding-bottom: 100px;
+}
+.savy{
+  height: 220px;
+  margin: 50px auto 10px auto;
+}
+.profile{
+  margin-bottom: 50px;
+}
+.line{
+  width: 5%;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  border-color: #EAF6F6;
+
+}
+.profilep{
+  width:30%;
+  margin: auto;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 1.5;
+
+}
+
+.code{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.code1{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+/*  //to clear any side (anti-float)
+
+.codep{
+  clear: left;
+}
+.codep1{
+  clear: right;
+}
+*/
+.bottom-container {
+
+  background-color:   #66BFBF;
+  padding: 50px 0 20px 0;
+}
+.bottomp{
+  color: white;
+}
+.footer-link{
+  color: #11999E;
+  width: 40%;
+}
+.contact-me{
+
+}
+.buddy{
+  text-decoration: underline;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Rubik', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
